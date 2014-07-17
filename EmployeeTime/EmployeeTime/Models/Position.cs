@@ -7,9 +7,10 @@ namespace EmployeeTime.Models
 {
     public class Position
     {
-        public int PositionID { get; set; }
+        public int PositionId { get; set; }
         public string PositionTitle { get; set; }
+        public string DepartmentTitle { get; set; }
 
-        public virtual Department Department { get; set; }
+        public virtual ICollection<Employee> Employees { get; set; }
     }
 }
