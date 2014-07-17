@@ -9,9 +9,8 @@ namespace EmployeeTime.Models
     {
         public int EmployeeID { get; set; }
         public string FirstName { get; set; }
-        public int MyProperty { get; set; }
+        public string LastName { get; set; }
 
-        public virtual Position Positon { get; set; }
-        public virtual Department Department { get; set; }
+        public virtual Position Position { get; set; }
     }
 }
