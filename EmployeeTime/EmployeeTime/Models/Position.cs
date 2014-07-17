@@ -7,7 +7,7 @@ namespace EmployeeTime.Models
 {
     public class Position
     {
-        public string PositionID { get; set; }
+        public int PositionID { get; set; }
         public string PositionTitle { get; set; }
 
         public virtual Department Department { get; set; }

@@ -7,7 +7,7 @@ namespace EmployeeTime.Models
 {
     public class Employee
     {
-        public string EmployeeID { get; set; }
+        public int EmployeeID { get; set; }
         public string FirstName { get; set; }
         public int MyProperty { get; set; }
 

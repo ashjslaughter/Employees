@@ -7,7 +7,7 @@ namespace EmployeeTime.Models
 {
     public class TimeSheet
     {
-        public string TimeSheetID { get; set; }
+        public int TimeSheetID { get; set; }
         public DateTime Date { get; set; }
         public DateTime TimeIn { get; set; }
         public DateTime DailyHours { get; set; }
