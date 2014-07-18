@@ -30,5 +30,6 @@
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.EmployeeId }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index") |
+    @Html.ActionLink("Create New Timesheet", "Create", "Timesheet", new { id = Model.TimeSheets })
 </p>

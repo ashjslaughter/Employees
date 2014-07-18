@@ -19,7 +19,7 @@ namespace EmployeeTime.Models
         [DataType(DataType.Time)]
         public DateTime TimeOut { get; set; }
 
-        public int DailyHours { get; set; }
+        public DateTime DailyHours { get; set; }
 
         public virtual Employee Employee { get; set; }
     }
